@@ -1,0 +1,26 @@
+{
+  "name": "linters",
+  "version": "1.0.0",
+  "description": "some linters for your project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6thSence/Linters.git"
+  },
+  "keywords": [
+    "lint",
+    "eslint",
+    "stylelint",
+    "gulp",
+    "linters"
+  ],
+  "author": "Pushkarskaya Dariya 6thSence",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/6thSence/Linters/issues"
+  },
+  "homepage": "https://github.com/6thSence/Linters#readme"
+}
