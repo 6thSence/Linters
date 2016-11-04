@@ -26,7 +26,7 @@ gulp.task('stylelint', () => {
 //
 //    return gulp.src('./src/style.css')
 //       .pipe(postcss(processors))
-//       .pipe(gulp.dest('./bundle'));
+//       .pipe(gulp.dest('./dist'));
 // });
 
 gulp.task('eslint', () => {
