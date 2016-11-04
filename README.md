@@ -2,17 +2,9 @@
 
 Следить за стилем кода очень важно, вне записимости, что вы пишите: разметку, стили или скрипты.
 В помощь разработчикам созданы различные утилиты, которые анализируют код на наличие плохих или хороших практик – Линтеры.
-Видеописание репозитория на моем канале: [URL WIP]
 
-## Как работать с этим проектом? 
-
-```
-git clone https://github.com/6thSence/Linters.git
-cd Linters
-npm i 
-```
-
-Вызвать линтер – все возможные команды ниже. 
+## Видеоинструкция к репозиторию на моем канале: 
+[URL WIP]
 
 ## HTML
 
@@ -42,11 +34,26 @@ npm i
 
 ### Вывод сообщения об ошибке: 
 1. По умолчанию всегда в консоли
-2. При подключении сторонних плагинов, можно выводить в браузен или дополнительным окном
+![CLI-screen](https://github.com/6thSence/Linters/raw/master/screens/CLI-screen.png)
+
+2. При подключении сторонних плагинов, можно выводить в браузер или дополнительным окном
+![Gulp-eslint](https://github.com/6thSence/Linters/raw/master/screens/gulp-eslint.png)
+![Gupl-stylelint](https://github.com/6thSence/Linters/raw/master/screens/gulp-stylelint.png)
 
 ## Линти!
  
 ![wow](https://github.com/6thSence/assets-for-any-occasion/raw/master/200 (14).gif)
+
+## Как работать с этим проектом? 
+
+```
+git clone https://github.com/6thSence/Linters.git
+cd Linters
+npm i 
+```
+
+Осталось вызвать линтер – все возможные команды указаны выше.
+
 
   
 
