@@ -22,7 +22,6 @@ module.exports = {
 
     plugins: [
         new StyleLintPlugin({
-            configFile: '.stylelintrc',
             files: '**/*.css'
         })
     ]
