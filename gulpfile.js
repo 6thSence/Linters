@@ -10,7 +10,10 @@ gulp.task('stylelint', () => {
    gulp.src('./src/style.css')
     .pipe(stylelintGulp({
        reporters: [
-          {formatter: 'string', console: true}
+          {
+              formatter: 'string',
+              console: true
+          }
        ]
     }))
     .on('error', notify.onError({ message: 'There is a JS error, please look the console for details'}));
