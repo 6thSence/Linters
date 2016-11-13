@@ -16,7 +16,9 @@ gulp.task('stylelint', () => {
           }
        ]
     }))
-    .on('error', notify.onError({ message: 'There is a JS error, please look the console for details'}));
+    .on('error', notify.onError({
+        message: 'There is a CSS error, please look the console for details'
+    }));
 });
 
 // gulp.task('stylelint', () => {
@@ -37,5 +39,7 @@ gulp.task('eslint', () => {
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError())
-    .on('error', notify.onError({ message: 'There is a JS error, please look the console for details'}));
+    .on('error', notify.onError({
+        message: 'There is a JS error, please look the console for details'
+    }));
 });
