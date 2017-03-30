@@ -42,7 +42,7 @@
 
 ## Линти!
  
-![wow](https://github.com/6thSence/assets-for-any-occasion/raw/master/200 (14).gif)
+![wow](https://raw.githubusercontent.com/6thSence/assets-for-any-occasion/master/200%20(14).gif)
 
 ## Как работать с этим проектом? 
 
